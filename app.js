@@ -5,9 +5,9 @@ switch(myVar){
     case "i":
     case "o":
     case "u":
-    document.write("this is a vowel");
-    break;
-    default:
+        document.write("this is a vowel");
+        break;
+        default:
         document.write("This is a consonant");
 
 
