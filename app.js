@@ -22,7 +22,17 @@
 //      }
     
 //creating and epmty array and then adding the value to it
-let boys = [];
-boys[0] = "Akbar";
-boys[1] = "Noor";
-console.log(boys);
+// let boys = [];
+// boys[0] = "Akbar";
+// boys[1] = "Noor";
+// console.log(boys);
+// //chapter 18
+
+let array1 = ["Akbar", "Ali", "Raza", "Ahmed",];
+let array2 = ["Karachi", "Lahore", "Multan", "Peshawar"];
+for (let i = 0; i < array1.length; i++){
+    console.log(array1[i]);
+    for (let j = 0; j < array2.length; j++){
+    console.log(array2[j]);
+    }
+}
