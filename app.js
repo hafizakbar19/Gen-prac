@@ -31,8 +31,9 @@
 let array1 = ["Akbar", "Ali", "Raza", "Ahmed",];
 let array2 = ["Karachi", "Lahore", "Multan", "Peshawar"];
 for (let i = 0; i < array1.length; i++){
-    console.log(array1[i]);
+    
     for (let j = 0; j < array2.length; j++){
-    console.log(array2[j]);
+        console.log(array1[i],array2[j]);
+    
     }
 }
