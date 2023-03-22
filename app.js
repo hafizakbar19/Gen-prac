@@ -85,5 +85,5 @@ let b= (name) => {
     console.log(`Hi ${name}`);
 }
 b("Saleem");
-// module.exports = { a,b};
-export{a,b};
+module.exports = { a,b};
+// export{a,b};
