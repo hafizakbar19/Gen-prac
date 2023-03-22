@@ -54,23 +54,36 @@
 
 //arry of objects
 
-let myObj2 = [
-    {
-        name: "Akbar",
-        age: 35,
-        City: "Karachi"
-    },
-    {
-        name: "Noor",
-        age: 38,
-        City: "Lhore"
-    },
-    {
-        name: "Ziarat",
-        age: 39,
-        City: "Islamabad"
-    }
-];
-myObj2[1].name = "Saeed";
-console.log(myObj2[1].name);
+// let myObj2 = [
+//     {
+//         name: "Akbar",
+//         age: 35,
+//         City: "Karachi"
+//     },
+//     {
+//         name: "Noor",
+//         age: 38,
+//         City: "Lhore"
+//     },
+//     {
+//         name: "Ziarat",
+//         age: 39,
+//         City: "Islamabad"
+//     }
+// ];
+// myObj2[1].name = "Saeed";
+// console.log(myObj2[1].name);
 
+
+// function 
+//1st way to make a function
+function a(name){
+    console.log(`Hello ${name}`);
+};
+//second way to make a function
+let b= (name) => {
+    console.log(`Hi ${name}`);
+}
+b("Saleem");
+// module.exports = { a,b};
+export{a,b};
