@@ -28,12 +28,49 @@
 // console.log(boys);
 // //chapter 18
 
-let array1 = ["Akbar", "Ali", "Raza", "Ahmed",];
-let array2 = ["Karachi", "Lahore", "Multan", "Peshawar"];
-for (let i = 0; i < array1.length; i++){
+// let array1 = ["Akbar", "Ali", "Raza", "Ahmed",];
+// let array2 = ["Karachi", "Lahore", "Multan", "Peshawar"];
+// let finalArray = [];
+// for (let i = 0; i < array1.length; i++){
     
-    for (let j = 0; j < array2.length; j++){
-        console.log(array1[i],array2[j]);
+//     for (let j = 0; j < array2.length; j++){
+//         // console.log(array1[i],array2[j]);
+//         finalArray.push(array1[i],array2[j]);
     
+//     }
+// }
+
+// console.log(finalArray);
+
+//object
+
+// let myObj1 = {
+//     name: "Akbar",
+//     age: 35,
+//     city: "Karachi",
+// };
+
+// console.log(myObj1.name);
+
+//arry of objects
+
+let myObj2 = [
+    {
+        name: "Akbar",
+        age: 35,
+        City: "Karachi"
+    },
+    {
+        name: "Noor",
+        age: 38,
+        City: "Lhore"
+    },
+    {
+        name: "Ziarat",
+        age: 39,
+        City: "Islamabad"
     }
-}
+];
+myObj2[1].name = "Saeed";
+console.log(myObj2[1].name);
+
