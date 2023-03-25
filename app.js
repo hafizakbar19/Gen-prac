@@ -88,7 +88,15 @@
 // module.exports = { a,b};
 // // export{a,b};
 
-let arr = ["Akbar", "Ahmed","Haniya"];
-arr.length = 0;
-arr.push("Noor");
-console.log(arr);
+// let arr = ["Akbar", "Ahmed","Haniya"];
+// arr.length = 0;
+// arr.push("Noor");
+// console.log(arr);
+
+for ( let i = 1; i < 100; i++){
+    if(i === 5){
+        console.log(i);
+        break;
+    }
+}
+console.log("Akbar");
