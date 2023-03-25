@@ -77,13 +77,18 @@
 
 // function 
 //1st way to make a function
-function a(name){
-    console.log(`Hello ${name}`);
-};
-//second way to make a function
-let b= (name) => {
-    console.log(`Hi ${name}`);
-}
-b("Saleem");
-module.exports = { a,b};
-// export{a,b};
+// function a(name){
+//     console.log(`Hello ${name}`);
+// };
+// //second way to make a function
+// let b= (name) => {
+//     console.log(`Hi ${name}`);
+// }
+// b("Saleem");
+// module.exports = { a,b};
+// // export{a,b};
+
+let arr = ["Akbar", "Ahmed","Haniya"];
+arr.length = 0;
+arr.push("Noor");
+console.log(arr);
