@@ -93,10 +93,17 @@
 // arr.push("Noor");
 // console.log(arr);
 
-for ( let i = 1; i < 100; i++){
-    if(i === 5){
-        console.log(i);
-        break;
-    }
+// for ( let i = 1; i < 100; i++){
+//     if(i === 5){
+//         console.log(i);
+//         break;
+//     }
+// }
+// console.log("Akbar");
+
+function setInterval(start,end){
+    for (let i = start; i < end; i++)
+    console.log(i);
 }
-console.log("Akbar");
+
+setInterval(1986,2023);
