@@ -101,9 +101,36 @@
 // }
 // console.log("Akbar");
 
-function setInterval(start,end){
-    for (let i = start; i < end; i++)
-    console.log(i);
-}
+// function setInterval(start,end){
+//     for (let i = start; i < end; i++)
+//     console.log(i);
+// }
 
-setInterval(1986,2023);
+// setInterval(1986,2023);
+
+
+// const grades = [91, 66, 77, 84, 66];
+// const search = 91;
+// function searchGrade(grades, search){
+//     for(let i = 0; i < grades.length; i++){
+//         if(grades[i] === search){
+//             console.log('The grade exist!');
+//             break;
+//         }else{
+//             console.log('doesnt exist!');
+//         }
+//     }
+// }
+// searchGrade(grades, search);
+
+
+const one= [91, 66,77,84,68];
+const two =[81,66,78,88,98];
+function compareArray(one,two){
+    for(let i =0; i< one.length;i++){
+        if( one[i] === two[i]){
+            console.log("common element", one[i]);
+        }
+    }return false;
+}
+compareArray(one,two);
